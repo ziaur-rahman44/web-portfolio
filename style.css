@@ -1,0 +1,80 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+}
+.first-section{
+    margin-bottom: 150px;
+    background-image: url("images/top-banner.png");
+    
+}
+section{
+    height: 500px;
+}
+.half-width{
+    
+    padding-left: 5%;
+    width:40%;
+    float:left;
+}
+.half-width img{
+    
+   width:100%;
+}
+.half-width h1{
+    color:black;
+    font-weight:bold;
+    font-size: 45px;
+
+}
+
+.name-highlight{
+    color:rgb(255, 72, 0);
+}
+.button{
+    text-decoration: none;
+    color:white;
+    background-image: linear-gradient(45deg, orange,red);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20xp;
+}
+.second-section{
+    background-image: url("images/dream-bg.png");
+
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    margin-bottom: 150px;
+}
+.third-section{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+.third-section h1{
+    font-size: 40px;
+}
+.experinces-box{
+    margin-left: 65px;
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+    height: 300px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    
+}
+#border-creat-one{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice:1;
+}
+#border-creat-two{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,rgb(6, 14, 126),rgb(123, 216, 228));
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
+    color:gray;
+}
